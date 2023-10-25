@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.off{
+    width: 550px;
+    height: 600px;
+    background-color: rgb(255, 106, 0);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url("../imgs/esqueleto2.png");
+}
+.off.on{
+    background-image: url("../imgs/esqueleto1.gif");
+}
+.on-off{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-radius: 1vh;
+    border: 0.2rem solid gray;
+    color: #fff;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill S ans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.on-off:hover{
+    background-color: red;
+    border: 0.2rem solid black;
+    color: black;
+    font-size: 1.5rem;
+}
