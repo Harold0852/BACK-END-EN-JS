@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid gray;
+    margin-top: 100px;
+}
+.puntaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background-color: gray;
+    width: 48px;
+    height: 45px;
+    cursor: pointer;
+    -webkit-mask-image: url(../imgs/estar.svg);
+    mask-image: url("../imgs/estar.svg");
+}   
+.item.selec{
+    background-color: gold;
+}
+h3{
+    color: white;
+    position: relative;
+    top: 200px;
+    right: 180px;
+}
