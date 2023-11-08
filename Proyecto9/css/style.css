@@ -1,0 +1,119 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 187, 255);
+}
+.todo{
+    display: flex;
+    justify-content: center;
+}
+.eventos{
+    text-align: center;
+}
+.proximos{
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    margin-left: 240px;
+}
+.imagen{
+    height: 50px;
+    width: 50px;
+    background-image: url(./img/imagen.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+.formulario{
+    width: 450px;
+    height: 250px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 100px 10px rgb(168, 208, 228);
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#agregar{
+    background-color: rgb(0, 187, 255);
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#agregar:active{
+    border: 2px solid rgb(0, 145, 255);
+    background-color: rgb(0, 145, 255);
+}
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 1.5rem;
+    border: 3px solid rgb(0, 187, 255);
+    position: relative;
+    top: 25px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.listaEventos2{
+    background-color: #fff;
+    width: 800px;
+    box-shadow: 0px 0px 100px 10px rgb(168, 208, 228);
+    border-radius: 1rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.evento{
+    height: 80px;
+    border: 3px solid rgb(0, 187, 255);
+    margin: 10px 10px;
+    border-radius: 1rem;
+    display: flex;
+}
+.dias{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    width: 20%;
+}
+.diasFaltantes{
+    color: rgb(72, 255, 0);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.nombreEvento{
+    margin: 15px 20px;
+    overflow-x: auto;
+    font-size: 2rem;
+    width: 40%;
+}
+.fechaEvento{
+    margin: 30px 10px;
+}
+.acciones{
+    margin-right: 20px;
+}
+button{
+    font-size: 1.2rem;
+    background-color: rgb(72, 255, 0);
+    border: none;
+    height: 50px;
+    width: 80px;
+    margin: 15px 20px;
+    border-radius: 0.5rem;
+}
+button:hover{
+    background-color: red;
+    color: #fff;
+}
