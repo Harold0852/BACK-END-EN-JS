@@ -23,7 +23,7 @@ body{
 .imagen{
     height: 50px;
     width: 50px;
-    background-image: url(./img/imagen.png);
+    background-image: url(../img/imagen.png);
     background-size: cover;
     margin-left: 15px;
 }
