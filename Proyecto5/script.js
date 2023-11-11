@@ -16,7 +16,7 @@ function bailar(){
         })
     }
     else{
-        esqueleto = "off"
+        esqueleto = "off";
         esqueletoStop.classList.remove("on");
         console.log("off");
         esqueletoStop.addEventListener('click', ()=>{
